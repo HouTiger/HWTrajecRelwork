@@ -22,8 +22,9 @@
 %% in the same archive or directory.)
 %%
 %% The first command in your LaTeX source must be the \documentclass command.
-\documentclass[sigconf]{acmart}
 
+\documentclass[sigconf]{acmart}
+\usepackage{multirow}
 %%
 %% \BibTeX command to typeset BibTeX logo in the docs
 \AtBeginDocument{%
@@ -41,9 +42,8 @@
 \acmDOI{10.1145/1122445.1122456}
 
 %% These commands are for a PROCEEDINGS abstract or paper.
-\acmConference[Woodstock '19]{Woodstock '19: ACM Symposium on Neural
-  Gaze Detection}{July 23--31, 2019}{Singapore, SG}
-\acmBooktitle{Woodstock '19: ACM Symposium on Neural Gaze Detection,
+\acmConference[Summer '19]{Summer '19: A Summer Research Internship on Database}{July 23--31, 2019}{Singapore, SG}
+\acmBooktitle{Summer '19: A Summer Research Internship on Database,
   July 23--31, 2019, Singapore, SG}
 \acmPrice{15.00}
 \acmISBN{978-1-4503-9999-9/18/06}
@@ -55,7 +55,7 @@
 %%
 %% The "title" command has an optional parameter,
 %% allowing the author to define a "short title" to be used in page headers.
-\title{A Survey on Vision Trajectories}
+\title{Vision Trajectories: Scene, Method and Dataset}
 
 %%
 %% The "author" command and its associated commands are used to define
@@ -75,16 +75,14 @@
 \author{Taige Hou}
 \affiliation{%
 	\institution{Peking University}
-	%\city{Beijing}
-	%\country{China} 
+	\city{Beijing}
+	\country{China} 
 }
 \email{houtiger@pku.edu.cn}
 
 \author{Sheng Wang}
 \affiliation{%
 	\institution{New York University}
-	%\city{New York City}
-	%\country{US} 
 }
 \email{swang@nyu.edu}
 
@@ -93,7 +91,7 @@
 %% article.
 
 \begin{abstract}
-Nowadays, the widely existence of vision trajectories like handwritting \cite{VikramLR13}, sports player running\cite{DBLP:conf/kdd/WangLCJ19} and pedestrain moving \cite{GuptaJFSA18} requires an efficient trajectory management database. And in this paper, we'd introduce the application scenes of vision trajectory, and then discuss the difficulty like trajectory normalization and dynamic time warping (DTW) computation complexity \cite{RakthanmanonDTW} in the process of vision trajectory similarity searching.   
+Nowadays, the widely existence of vision trajectories like handwriting \cite{VikramLR13}, sports player running \cite{DBLP:conf/kdd/WangLCJ19} and pedestrain moving \cite{GuptaJFSA18} requires efficient trajectory  database management. And in this paper, we will first introduce the application scenes of vision trajectory. Then we'll discuss the difficulty in the process of vision trajectory similarity searching, like trajectory normalization and dynamic time warping (DTW) computation complexity. After that, a brief description of available datasets would be given. 
 \end{abstract}
 
 %%
@@ -116,7 +114,7 @@ Nowadays, the widely existence of vision trajectories like handwritting \cite{Vi
 %%
 %% Keywords. The author(s) should pick words that accurately describe
 %% the work being presented. Separate the keywords with commas.
-\keywords{database management, handwritting trajectories}
+\keywords{database management, handwriting trajectories}
 
 %% A "teaser" image appears between the author and affiliation
 %% information and the body of the document, and typically spans the
@@ -141,11 +139,32 @@ Handwritten trajectories can also be applied to computer-human intereactions \ci
 
 
 \section{Dynamic Time Warping}
-In measuring trajectory similairty, dynamic time warping (DTW) is a well accepted method. But the expense of computating is very large, and several optimizations is proposed in this \cite{RakthanmanonDTW}, which including early abandoning Z-Normalization, reordering early abandoning, revering the Query/Document role in $LB_{keogh}$ and casacading lower bounds.
+In measuring trajectory similairty, Dynamic Time Warping (DTW) is a well accepted method. Different from Euclidean Distance, DTW consider matching points within a certain time window, that's also how the name ``warping'' comes. But the expense of computation is very large, and several optimizations are proposed in \cite{RakthanmanonDTW, vldb/LB_keogh}, including lower bound pruning, early abandoning Z-Normalization, reordering early abandoning, reversing the Query/Document role in $LB_{keogh}$ and casacading lower bounds. Even though, the approximate computing complexity of DTW is still $O(mn)$, where $m$ and $n$ represent the length of query and candidate aequences separately. 
 
 \section{Datasets}
+There are datasets of vision trajectories of considerable size. For example, the CASIA database of Chinese character handwriting trajectories \cite{DBLP:conf/icdar/LiuYWW11} consists of over 160 million trajectories of more than 3000 classes. And trajectory databases of other languages are also available, like English \cite{UJIPen}, Japanese \cite{icdar/Japanese}, Vietnamese \cite{Vietnamese}, etc. In \textbf{Table 1}, we show the statistics of CASIA database.
 
 
+\begin{table}
+	\caption{Statistics of CASIA Database}
+	\label{tab:CASIA}
+	\begin{tabular}{|l|l|l|l|l|}
+		\hline
+		\multirow{2}{*}{dataset} & \multirow{2}*{writers} & \multicolumn{3}{|c|}{character samples} \\
+		\cline{3-5}
+		& & total & symbol & Chinese/class \\ 
+		\hline
+		OLHWDB1.0 & 420 & 1,694,741 & 71,806 & 1,622,935/3,866 \\
+		\hline
+		OLHWDB1.1 & 300 & 1,174,364 & 51,232 & 1,123,132/3,755 \\
+		\hline
+		OLHWDB1.2 & 300 & 1,042,912 & 51,181 & 991,731/3,319 \\
+		\hline
+		total & 1,020 & 3,912,017 & 174,219 & 3,737,798/7,185\\
+		\hline
+	
+	\end{tabular}
+\end{table}
 
 %%
 %% The next two lines define the bibliography style to be used, and

@@ -13,10 +13,19 @@ A bad cross reference---entry "GuptaJFSA18"
 refers to entry "DBLP:conf/cvpr/2018", which doesn't exist
 A bad cross reference---entry "RakthanmanonDTW"
 refers to entry "DBLP:conf/kdd/2012", which doesn't exist
+A bad cross reference---entry "DBLP:conf/icdar/LiuYWW11"
+refers to entry "DBLP:conf/icdar/2011", which doesn't exist
+A bad cross reference---entry "UJIPen"
+refers to entry "DBLP:conf/lrec/2008", which doesn't exist
+A bad cross reference---entry "icdar/Japanese"
+refers to entry "DBLP:conf/icdar/2001", which doesn't exist
 Warning--I didn't find a database entry for "DBLP:conf/chi/2013a"
 Warning--I didn't find a database entry for "DBLP:conf/cvpr/2018"
 Warning--I didn't find a database entry for "DBLP:conf/kdd/2012"
 Warning--I didn't find a database entry for "DBLP:conf/kdd/2019"
+Warning--I didn't find a database entry for "DBLP:conf/icdar/2011"
+Warning--I didn't find a database entry for "DBLP:conf/lrec/2008"
+Warning--I didn't find a database entry for "DBLP:conf/icdar/2001"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -24,51 +33,58 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty publisher in GuptaJFSA18
 Warning--empty address in GuptaJFSA18
+Warning--empty publisher in icdar/Japanese
+Warning--empty address in icdar/Japanese
+Warning--empty publisher in DBLP:conf/icdar/LiuYWW11
+Warning--empty address in DBLP:conf/icdar/LiuYWW11
+Warning--empty publisher in UJIPen
+Warning--empty address in UJIPen
+Warning--page numbers missing in both pages and numpages fields in UJIPen
 Warning--empty publisher in RakthanmanonDTW
 Warning--empty address in RakthanmanonDTW
 Warning--empty publisher in VikramLR13
 Warning--empty address in VikramLR13
 Warning--empty publisher in DBLP:conf/kdd/WangLCJ19
 Warning--empty address in DBLP:conf/kdd/WangLCJ19
-You've used 4 entries,
+You've used 9 entries,
             5719 wiz_defined-function locations,
-            1325 strings with 15954 characters,
-and the built_in function-call counts, 5749 in all, are:
-= -- 576
-> -- 252
+            1365 strings with 17646 characters,
+and the built_in function-call counts, 12296 in all, are:
+= -- 1273
+> -- 609
 < -- 0
-+ -- 84
-- -- 80
-* -- 434
-:= -- 600
-add.period$ -- 20
-call.type$ -- 4
-change.case$ -- 36
-chr.to.int$ -- 4
-cite$ -- 12
-duplicate$ -- 519
-empty$ -- 355
-format.name$ -- 96
-if$ -- 1312
++ -- 207
+- -- 204
+* -- 967
+:= -- 1344
+add.period$ -- 44
+call.type$ -- 9
+change.case$ -- 84
+chr.to.int$ -- 9
+cite$ -- 24
+duplicate$ -- 1050
+empty$ -- 725
+format.name$ -- 236
+if$ -- 2801
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 20
-newline$ -- 68
-num.names$ -- 32
-pop$ -- 221
+missing$ -- 39
+newline$ -- 109
+num.names$ -- 72
+pop$ -- 450
 preamble$ -- 1
-purify$ -- 72
+purify$ -- 165
 quote$ -- 0
-skip$ -- 195
+skip$ -- 388
 stack$ -- 0
-substring$ -- 434
-swap$ -- 60
+substring$ -- 850
+swap$ -- 110
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 120
-warning$ -- 8
-while$ -- 28
+type$ -- 256
+warning$ -- 15
+while$ -- 65
 width$ -- 0
-write$ -- 103
-(There were 4 error messages)
+write$ -- 187
+(There were 7 error messages)

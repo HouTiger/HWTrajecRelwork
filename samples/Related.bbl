@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{4}
+\begin{thebibliography}{9}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -37,6 +37,19 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
+\bibitem[\protect\citeauthoryear{Fu, Keogh, Lau, Ratanamahatana, and Wong}{Fu
+  et~al\mbox{.}}{2008}]%
+        {vldb/LB_keogh}
+\bibfield{author}{\bibinfo{person}{Ada~Wai{-}Chee Fu},
+  \bibinfo{person}{Eamonn~J. Keogh}, \bibinfo{person}{Leo Yung~Hang Lau},
+  \bibinfo{person}{Chotirat~(Ann) Ratanamahatana}, {and}
+  \bibinfo{person}{Raymond~Chi{-}Wing Wong}.} \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Scaling and time warping in time series querying}.
+\newblock \bibinfo{journal}{\emph{{VLDB} J.}} \bibinfo{volume}{17},
+  \bibinfo{number}{4} (\bibinfo{year}{2008}), \bibinfo{pages}{899--921}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Gupta, Johnson, Fei{-}Fei, Savarese, and
   Alahi}{Gupta et~al\mbox{.}}{2018}]%
         {GuptaJFSA18}
@@ -47,6 +60,68 @@
   Generative Adversarial Networks}. In \bibinfo{booktitle}{\emph{2018 {IEEE}
   Conference on Computer Vision and Pattern Recognition, {CVPR} 2018, Salt Lake
   City, UT, USA, June 18-22, 2018}}. \bibinfo{pages}{2255--2264}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hung}{Hung}{2016}]%
+        {Vietnamese}
+\bibfield{author}{\bibinfo{person}{Nguyen~Tuan Hung}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \bibinfo{title}{TUAT Nakagawa Lab. HANDS - Vietnamese Online
+  Handwriting Database (HANDS-VNOnDB)}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{http://tc11.cvc.uab.es/datasets/HANDS-VNOnDB_1}
+\showURL{%
+Retrieved August 26, 2019 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{J{\"{a}}ger and Nakagawa}{J{\"{a}}ger and
+  Nakagawa}{2001}]%
+        {icdar/Japanese}
+\bibfield{author}{\bibinfo{person}{Stefan J{\"{a}}ger} {and}
+  \bibinfo{person}{Masaki Nakagawa}.} \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{Two On-Line Japanese Character Databases in Unipen
+  Format}. In \bibinfo{booktitle}{\emph{6th International Conference on
+  Document Analysis and Recognition {(ICDAR} 2001), 10-13 September 2001,
+  Seattle, WA, {USA}}}. \bibinfo{pages}{566--571}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Liu, Yin, Wang, and Wang}{Liu
+  et~al\mbox{.}}{2011}]%
+        {DBLP:conf/icdar/LiuYWW11}
+\bibfield{author}{\bibinfo{person}{Cheng{-}Lin Liu}, \bibinfo{person}{Fei Yin},
+  \bibinfo{person}{Da{-}Han Wang}, {and} \bibinfo{person}{Qiu{-}Feng Wang}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{{CASIA} Online and Offline Chinese Handwriting
+  Databases}. In \bibinfo{booktitle}{\emph{2011 International Conference on
+  Document Analysis and Recognition, {ICDAR} 2011, Beijing, China, September
+  18-21, 2011}}. \bibinfo{pages}{37--41}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Llorens, Prat, Marzal, Vilar, Castro,
+  Amengual, Barrachina, Castellanos, Boquera, G{\'{o}}mez, Gorbe{-}Moya, Gordo,
+  Palaz{\'{o}}n, Peris, Ramos{-}Garijo, and Zamora{-}Mart{\'{\i}}nez}{Llorens
+  et~al\mbox{.}}{2008}]%
+        {UJIPen}
+\bibfield{author}{\bibinfo{person}{David Llorens}, \bibinfo{person}{Federico
+  Prat}, \bibinfo{person}{Andr{\'{e}}s Marzal}, \bibinfo{person}{Juan~Miguel
+  Vilar}, \bibinfo{person}{Mar{\'{\i}}a~Jos{\'{e}} Castro},
+  \bibinfo{person}{Juan{-}Carlos Amengual}, \bibinfo{person}{Sergio
+  Barrachina}, \bibinfo{person}{Antonio Castellanos},
+  \bibinfo{person}{Salvador~Espa{\~{n}}a Boquera}, \bibinfo{person}{J.~A.
+  G{\'{o}}mez}, \bibinfo{person}{Jorge Gorbe{-}Moya}, \bibinfo{person}{Albert
+  Gordo}, \bibinfo{person}{Vicente Palaz{\'{o}}n}, \bibinfo{person}{Guillermo
+  Peris}, \bibinfo{person}{Rafael Ramos{-}Garijo}, {and}
+  \bibinfo{person}{Francisco Zamora{-}Mart{\'{\i}}nez}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{The UJIpenchars Database: a Pen-Based Database of
+  Isolated Handwritten Characters}. In \bibinfo{booktitle}{\emph{Proceedings of
+  the International Conference on Language Resources and Evaluation, {LREC}
+  2008, 26 May - 1 June 2008, Marrakech, Morocco}}.
 \newblock
 
 
