@@ -1,0 +1,74 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Related.aux
+The style file: ACM-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: sample-base.bib
+A bad cross reference---entry "VikramLR13"
+refers to entry "DBLP:conf/chi/2013a", which doesn't exist
+A bad cross reference---entry "DBLP:conf/kdd/WangLCJ19"
+refers to entry "DBLP:conf/kdd/2019", which doesn't exist
+A bad cross reference---entry "GuptaJFSA18"
+refers to entry "DBLP:conf/cvpr/2018", which doesn't exist
+A bad cross reference---entry "RakthanmanonDTW"
+refers to entry "DBLP:conf/kdd/2012", which doesn't exist
+Warning--I didn't find a database entry for "DBLP:conf/chi/2013a"
+Warning--I didn't find a database entry for "DBLP:conf/cvpr/2018"
+Warning--I didn't find a database entry for "DBLP:conf/kdd/2012"
+Warning--I didn't find a database entry for "DBLP:conf/kdd/2019"
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty publisher in GuptaJFSA18
+Warning--empty address in GuptaJFSA18
+Warning--empty publisher in RakthanmanonDTW
+Warning--empty address in RakthanmanonDTW
+Warning--empty publisher in VikramLR13
+Warning--empty address in VikramLR13
+Warning--empty publisher in DBLP:conf/kdd/WangLCJ19
+Warning--empty address in DBLP:conf/kdd/WangLCJ19
+You've used 4 entries,
+            5719 wiz_defined-function locations,
+            1325 strings with 15954 characters,
+and the built_in function-call counts, 5749 in all, are:
+= -- 576
+> -- 252
+< -- 0
++ -- 84
+- -- 80
+* -- 434
+:= -- 600
+add.period$ -- 20
+call.type$ -- 4
+change.case$ -- 36
+chr.to.int$ -- 4
+cite$ -- 12
+duplicate$ -- 519
+empty$ -- 355
+format.name$ -- 96
+if$ -- 1312
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 20
+newline$ -- 68
+num.names$ -- 32
+pop$ -- 221
+preamble$ -- 1
+purify$ -- 72
+quote$ -- 0
+skip$ -- 195
+stack$ -- 0
+substring$ -- 434
+swap$ -- 60
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 120
+warning$ -- 8
+while$ -- 28
+width$ -- 0
+write$ -- 103
+(There were 4 error messages)

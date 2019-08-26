@@ -1,0 +1,95 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{4}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Gupta, Johnson, Fei{-}Fei, Savarese, and
+  Alahi}{Gupta et~al\mbox{.}}{2018}]%
+        {GuptaJFSA18}
+\bibfield{author}{\bibinfo{person}{Agrim Gupta}, \bibinfo{person}{Justin
+  Johnson}, \bibinfo{person}{Li Fei{-}Fei}, \bibinfo{person}{Silvio Savarese},
+  {and} \bibinfo{person}{Alexandre Alahi}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Social {GAN:} Socially Acceptable Trajectories With
+  Generative Adversarial Networks}. In \bibinfo{booktitle}{\emph{2018 {IEEE}
+  Conference on Computer Vision and Pattern Recognition, {CVPR} 2018, Salt Lake
+  City, UT, USA, June 18-22, 2018}}. \bibinfo{pages}{2255--2264}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Rakthanmanon, Campana, Mueen, Batista,
+  Westover, Zhu, Zakaria, and Keogh}{Rakthanmanon et~al\mbox{.}}{2012}]%
+        {RakthanmanonDTW}
+\bibfield{author}{\bibinfo{person}{Thanawin Rakthanmanon},
+  \bibinfo{person}{Bilson J.~L. Campana}, \bibinfo{person}{Abdullah Mueen},
+  \bibinfo{person}{Gustavo E. A. P.~A. Batista}, \bibinfo{person}{M.~Brandon
+  Westover}, \bibinfo{person}{Qiang Zhu}, \bibinfo{person}{Jesin Zakaria},
+  {and} \bibinfo{person}{Eamonn~J. Keogh}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Searching and mining trillions of time series
+  subsequences under dynamic time warping}. In \bibinfo{booktitle}{\emph{The
+  18th {ACM} {SIGKDD} International Conference on Knowledge Discovery and Data
+  Mining, {KDD} '12, Beijing, China, August 12-16, 2012}}.
+  \bibinfo{pages}{262--270}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Vikram, Li, and Russell}{Vikram
+  et~al\mbox{.}}{2013}]%
+        {VikramLR13}
+\bibfield{author}{\bibinfo{person}{Sharad Vikram}, \bibinfo{person}{Lei Li},
+  {and} \bibinfo{person}{Stuart~J. Russell}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Writing and sketching in the air, recognizing and
+  controlling on the fly}. In \bibinfo{booktitle}{\emph{2013 {ACM} {SIGCHI}
+  Conference on Human Factors in Computing Systems, {CHI} '13, Paris, France,
+  April 27 - May 2, 2013, Extended Abstracts}}. \bibinfo{pages}{1179--1184}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wang, Long, Cong, and Ju}{Wang
+  et~al\mbox{.}}{2019}]%
+        {DBLP:conf/kdd/WangLCJ19}
+\bibfield{author}{\bibinfo{person}{Zheng Wang}, \bibinfo{person}{Cheng Long},
+  \bibinfo{person}{Gao Cong}, {and} \bibinfo{person}{Ce Ju}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Effective and Efficient Sports Play Retrieval with
+  Deep Representation Learning}. In \bibinfo{booktitle}{\emph{Proceedings of
+  the 25th {ACM} {SIGKDD} International Conference on Knowledge Discovery {\&}
+  Data Mining, {KDD} 2019, Anchorage, AK, USA, August 4-8, 2019.}}
+  \bibinfo{pages}{499--509}.
+\newblock
+
+
+\end{thebibliography}

@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: sample-sigconf.aux
+The style file: ACM-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: sample-base.bib
+Warning--entry type for "R" isn't style-file defined
+--line 1606 of file sample-base.bib
+Warning--entry type for "UMassCitations" isn't style-file defined
+--line 1615 of file sample-base.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty chapter and pages in Editor00
+Warning--page numbers missing in Editor00a
+Warning--empty author in 2004:ITE:1009386.1010128
+Warning--empty address in Knuth97
+Warning--articleno or eid field, but no numpages field, in Lee05
+Warning--page numbers missing in both pages and numpages fields in Lee05
+Warning--articleno or eid, but no pages or numpages field in Lee05
+Warning--unrecognized DOI value [99.9999/woot07-S422]
+Warning--articleno or eid field, but no numpages field, in rous08
+Warning--page numbers missing in both pages and numpages fields in rous08
+Warning--articleno or eid, but no pages or numpages field in rous08
+Warning--page numbers missing in both pages and numpages fields in SaeediJETC10
+Warning--unrecognized DOI value [99.9999/woot07-S422]
+Warning--empty author in TUGInstmem
+Warning--empty year in CTANacmart
+You've used 35 entries,
+            5719 wiz_defined-function locations,
+            1718 strings with 22196 characters,
+and the built_in function-call counts, 32939 in all, are:
+= -- 4069
+> -- 868
+< -- 4
++ -- 272
+- -- 346
+* -- 2199
+:= -- 3430
+add.period$ -- 193
+call.type$ -- 35
+change.case$ -- 194
+chr.to.int$ -- 33
+cite$ -- 48
+duplicate$ -- 3078
+empty$ -- 2185
+format.name$ -- 359
+if$ -- 7587
+int.to.chr$ -- 4
+int.to.str$ -- 1
+missing$ -- 65
+newline$ -- 398
+num.names$ -- 271
+pop$ -- 976
+preamble$ -- 1
+purify$ -- 495
+quote$ -- 0
+skip$ -- 1058
+stack$ -- 0
+substring$ -- 2584
+swap$ -- 289
+text.length$ -- 47
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 822
+warning$ -- 15
+while$ -- 275
+width$ -- 0
+write$ -- 738
+(There were 17 warnings)
