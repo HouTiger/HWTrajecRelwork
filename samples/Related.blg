@@ -11,6 +11,8 @@ A bad cross reference---entry "DBLP:conf/kdd/WangLCJ19"
 refers to entry "DBLP:conf/kdd/2019", which doesn't exist
 A bad cross reference---entry "GuptaJFSA18"
 refers to entry "DBLP:conf/cvpr/2018", which doesn't exist
+A bad cross reference---entry "torch"
+refers to entry "DBLP:conf/sigir/2018", which doesn't exist
 A bad cross reference---entry "RakthanmanonDTW"
 refers to entry "DBLP:conf/kdd/2012", which doesn't exist
 A bad cross reference---entry "DBLP:conf/icdar/LiuYWW11"
@@ -26,6 +28,7 @@ Warning--I didn't find a database entry for "DBLP:conf/kdd/2019"
 Warning--I didn't find a database entry for "DBLP:conf/icdar/2011"
 Warning--I didn't find a database entry for "DBLP:conf/lrec/2008"
 Warning--I didn't find a database entry for "DBLP:conf/icdar/2001"
+Warning--I didn't find a database entry for "DBLP:conf/sigir/2018"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -35,6 +38,9 @@ Warning--empty publisher in GuptaJFSA18
 Warning--empty address in GuptaJFSA18
 Warning--empty publisher in icdar/Japanese
 Warning--empty address in icdar/Japanese
+Warning--empty publisher in highDdataset
+Warning--empty address in highDdataset
+Warning--page numbers missing in both pages and numpages fields in highDdataset
 Warning--empty publisher in DBLP:conf/icdar/LiuYWW11
 Warning--empty address in DBLP:conf/icdar/LiuYWW11
 Warning--empty publisher in UJIPen
@@ -44,47 +50,49 @@ Warning--empty publisher in RakthanmanonDTW
 Warning--empty address in RakthanmanonDTW
 Warning--empty publisher in VikramLR13
 Warning--empty address in VikramLR13
+Warning--empty publisher in torch
+Warning--empty address in torch
 Warning--empty publisher in DBLP:conf/kdd/WangLCJ19
 Warning--empty address in DBLP:conf/kdd/WangLCJ19
-You've used 9 entries,
+You've used 11 entries,
             5719 wiz_defined-function locations,
-            1365 strings with 17646 characters,
-and the built_in function-call counts, 12296 in all, are:
-= -- 1273
-> -- 609
+            1377 strings with 18312 characters,
+and the built_in function-call counts, 14837 in all, are:
+= -- 1513
+> -- 735
 < -- 0
-+ -- 207
-- -- 204
-* -- 967
-:= -- 1344
-add.period$ -- 44
-call.type$ -- 9
-change.case$ -- 84
-chr.to.int$ -- 9
-cite$ -- 24
-duplicate$ -- 1050
-empty$ -- 725
-format.name$ -- 236
-if$ -- 2801
++ -- 251
+- -- 244
+* -- 1171
+:= -- 1617
+add.period$ -- 53
+call.type$ -- 11
+change.case$ -- 102
+chr.to.int$ -- 11
+cite$ -- 31
+duplicate$ -- 1282
+empty$ -- 885
+format.name$ -- 284
+if$ -- 3380
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 39
-newline$ -- 109
-num.names$ -- 72
-pop$ -- 450
+missing$ -- 49
+newline$ -- 123
+num.names$ -- 88
+pop$ -- 560
 preamble$ -- 1
-purify$ -- 165
+purify$ -- 201
 quote$ -- 0
-skip$ -- 388
+skip$ -- 470
 stack$ -- 0
-substring$ -- 850
-swap$ -- 110
+substring$ -- 1012
+swap$ -- 130
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 256
-warning$ -- 15
-while$ -- 65
+type$ -- 316
+warning$ -- 20
+while$ -- 76
 width$ -- 0
-write$ -- 187
-(There were 7 error messages)
+write$ -- 218
+(There were 8 error messages)

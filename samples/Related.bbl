@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{9}
+\begin{thebibliography}{11}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -89,6 +89,19 @@ Retrieved August 26, 2019 from \tempurl}
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Krajewski, Bock, Kloeker, and
+  Eckstein}{Krajewski et~al\mbox{.}}{2018}]%
+        {highDdataset}
+\bibfield{author}{\bibinfo{person}{Robert Krajewski}, \bibinfo{person}{Julian
+  Bock}, \bibinfo{person}{Laurent Kloeker}, {and} \bibinfo{person}{Lutz
+  Eckstein}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{The highD Dataset: A Drone Dataset of Naturalistic
+  Vehicle Trajectories on German Highways for Validation of Highly Automated
+  Driving Systems}. In \bibinfo{booktitle}{\emph{2018 IEEE 21st International
+  Conference on Intelligent Transportation Systems (ITSC)}}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Liu, Yin, Wang, and Wang}{Liu
   et~al\mbox{.}}{2011}]%
         {DBLP:conf/icdar/LiuYWW11}
@@ -150,6 +163,20 @@ Retrieved August 26, 2019 from \tempurl}
   controlling on the fly}. In \bibinfo{booktitle}{\emph{2013 {ACM} {SIGCHI}
   Conference on Human Factors in Computing Systems, {CHI} '13, Paris, France,
   April 27 - May 2, 2013, Extended Abstracts}}. \bibinfo{pages}{1179--1184}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wang, Bao, Culpepper, Xie, Liu, and Qin}{Wang
+  et~al\mbox{.}}{2018}]%
+        {torch}
+\bibfield{author}{\bibinfo{person}{Sheng Wang}, \bibinfo{person}{Zhifeng Bao},
+  \bibinfo{person}{J.~Shane Culpepper}, \bibinfo{person}{Zizhe Xie},
+  \bibinfo{person}{Qizhi Liu}, {and} \bibinfo{person}{Xiaolin Qin}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Torch: {A} Search Engine for Trajectory Data}. In
+  \bibinfo{booktitle}{\emph{The 41st International {ACM} {SIGIR} Conference on
+  Research {\&} Development in Information Retrieval, {SIGIR} 2018, Ann Arbor,
+  MI, USA, July 08-12, 2018}}. \bibinfo{pages}{535--544}.
 \newblock
 
 
