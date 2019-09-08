@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.18)  8 SEP 2019 11:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.18)  8 SEP 2019 12:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1127,28 +1127,35 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (./Related.bbl
 LaTeX Info: Redefining \tempurl on input line 124.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 185.
+(Font)              scaled to size 9.0pt on input line 138.
  [2.2])
-Overfull \vbox (1.16599pt too high) has occurred while \output is active []
+Overfull \vbox (1.152pt too high) has occurred while \output is active []
 
-
-[3.3]
+ [3.3]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
- (./Related.aux)
+
+(./Related.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 192.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 192.
-Package rerunfilecheck Info: File `Related.out' has not changed.
-(rerunfilecheck)             Checksum: 87B70F1B8DE4AF0F46F64E32B720DD5F;1250.
+
+
+Package rerunfilecheck Warning: File `Related.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Related.out':
+(rerunfilecheck)             Before: 1ABAF7E05CE2B61CE62983E1BBCD8CD5;1270
+(rerunfilecheck)             After:  FA284E468F9ED091468501CB5BE0F5AF;1265.
  ) 
 Here is how much of TeX's memory you used:
- 18300 strings out of 492616
- 277442 string characters out of 6129481
- 398838 words of memory out of 5000000
- 21372 multiletter control sequences out of 15000+600000
- 143115 words of font info for 308 fonts, out of 8000000 for 9000
+ 18311 strings out of 492616
+ 277746 string characters out of 6129481
+ 405008 words of memory out of 5000000
+ 21378 multiletter control sequences out of 15000+600000
+ 143486 words of font info for 310 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 60i,11n,94p,1252b,585s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,94p,1275b,579s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc
 }{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/newtx/libertinealt.enc}{/u
 sr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texliv
@@ -1165,10 +1172,10 @@ ocal/texlive/2019/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></
 usr/local/texlive/2019/texmf-dist/fonts/type1/public/newtx/fxlri-7letters.pfb><
 /usr/local/texlive/2019/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/loc
 al/texlive/2019/texmf-dist/fonts/type1/public/newtx/zxlri.pfb>
-Output written on Related.pdf (3 pages, 468247 bytes).
+Output written on Related.pdf (3 pages, 469553 bytes).
 PDF statistics:
- 188 PDF objects out of 1000 (max. 8388607)
- 159 compressed objects within 2 object streams
- 40 named destinations out of 1000 (max. 500000)
+ 192 PDF objects out of 1000 (max. 8388607)
+ 163 compressed objects within 2 object streams
+ 42 named destinations out of 1000 (max. 500000)
  47189 words of extra memory for PDF output out of 51595 (max. 10000000)
 

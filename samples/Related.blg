@@ -49,45 +49,49 @@ Warning--empty publisher in Wang2018
 Warning--empty address in Wang2018
 Warning--empty publisher in DBLP:conf/kdd/WangLCJ19
 Warning--empty address in DBLP:conf/kdd/WangLCJ19
-You've used 22 entries,
+Warning--empty publisher in eccv/WigingtonTDBPC18
+Warning--empty address in eccv/WigingtonTDBPC18
+Warning--empty publisher in CVPR/sketchMeTheShoes
+Warning--empty address in CVPR/sketchMeTheShoes
+You've used 24 entries,
             5719 wiz_defined-function locations,
-            1439 strings with 20324 characters,
-and the built_in function-call counts, 30104 in all, are:
-= -- 3393
-> -- 1376
+            1451 strings with 20853 characters,
+and the built_in function-call counts, 32998 in all, are:
+= -- 3679
+> -- 1524
 < -- 0
-+ -- 474
-- -- 464
-* -- 2294
-:= -- 3196
-add.period$ -- 110
-call.type$ -- 22
-change.case$ -- 194
-chr.to.int$ -- 22
-cite$ -- 53
-duplicate$ -- 2574
-empty$ -- 1778
-format.name$ -- 544
-if$ -- 7029
++ -- 524
+- -- 512
+* -- 2528
+:= -- 3510
+add.period$ -- 120
+call.type$ -- 24
+change.case$ -- 214
+chr.to.int$ -- 24
+cite$ -- 59
+duplicate$ -- 2828
+empty$ -- 1952
+format.name$ -- 600
+if$ -- 7691
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 91
-newline$ -- 210
-num.names$ -- 176
-pop$ -- 1034
+missing$ -- 101
+newline$ -- 224
+num.names$ -- 192
+pop$ -- 1146
 preamble$ -- 1
-purify$ -- 392
+purify$ -- 430
 quote$ -- 0
-skip$ -- 956
+skip$ -- 1050
 stack$ -- 0
-substring$ -- 2233
-swap$ -- 291
+substring$ -- 2439
+swap$ -- 319
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 590
-warning$ -- 31
-while$ -- 169
+type$ -- 650
+warning$ -- 35
+while$ -- 183
 width$ -- 0
-write$ -- 404
+write$ -- 436
 (There were 2 error messages)
