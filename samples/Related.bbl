@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{11}
+\begin{thebibliography}{22}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -37,6 +37,43 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
+\bibitem[\protect\citeauthoryear{Agarwal, Avraham, Kaplan, and Sharir}{Agarwal
+  et~al\mbox{.}}{2014}]%
+        {siam/AgarwalAKS14}
+\bibfield{author}{\bibinfo{person}{Pankaj~K. Agarwal},
+  \bibinfo{person}{Rinat~Ben Avraham}, \bibinfo{person}{Haim Kaplan}, {and}
+  \bibinfo{person}{Micha Sharir}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Computing the Discrete Fr{\'{e}}chet Distance in
+  Subquadratic Time}.
+\newblock \bibinfo{journal}{\emph{{SIAM} J. Comput.}} \bibinfo{volume}{43},
+  \bibinfo{number}{2} (\bibinfo{year}{2014}), \bibinfo{pages}{429--449}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bhunia, Bhowmick, Bhunia, Konwer, Banerjee,
+  Roy, and Pal}{Bhunia et~al\mbox{.}}{2018}]%
+        {ICPRtraj}
+\bibfield{author}{\bibinfo{person}{Ayan~Kumar Bhunia}, \bibinfo{person}{Abir
+  Bhowmick}, \bibinfo{person}{Ankan~Kumar Bhunia}, \bibinfo{person}{Aishik
+  Konwer}, \bibinfo{person}{Prithaj Banerjee}, \bibinfo{person}{Partha~Pratim
+  Roy}, {and} \bibinfo{person}{Umapada Pal}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Handwriting Trajectory Recovery using End-to-End
+  Deep Encoder-Decoder Network}. In \bibinfo{booktitle}{\emph{24th
+  International Conference on Pattern Recognition, {ICPR} 2018}}.
+  \bibinfo{pages}{3639--3644}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chang and Chuang}{Chang and Chuang}{2012}]%
+        {CVPR/imageresize}
+\bibfield{author}{\bibinfo{person}{Che{-}Han Chang} {and}
+  \bibinfo{person}{Yung{-}Yu Chuang}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{A line-structure-preserving approach to image
+  resizing}. In \bibinfo{booktitle}{\emph{2012 {IEEE} Conference on Computer
+  Vision and Pattern Recognition}}. \bibinfo{pages}{1075--1082}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Fu, Keogh, Lau, Ratanamahatana, and Wong}{Fu
   et~al\mbox{.}}{2008}]%
         {vldb/LB_keogh}
@@ -50,6 +87,18 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Google}{Google}{2017}]%
+        {Quickdraw}
+\bibfield{author}{\bibinfo{person}{Google}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{title}{The Quick, Draw! Dataset}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://github.com/googlecreativelab/quickdraw-dataset}
+\showURL{%
+Retrieved Sep. 3, 2019 from \tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Gupta, Johnson, Fei{-}Fei, Savarese, and
   Alahi}{Gupta et~al\mbox{.}}{2018}]%
         {GuptaJFSA18}
@@ -58,8 +107,8 @@
   {and} \bibinfo{person}{Alexandre Alahi}.} \bibinfo{year}{2018}\natexlab{}.
 \newblock \showarticletitle{Social {GAN:} Socially Acceptable Trajectories With
   Generative Adversarial Networks}. In \bibinfo{booktitle}{\emph{2018 {IEEE}
-  Conference on Computer Vision and Pattern Recognition, {CVPR} 2018, Salt Lake
-  City, UT, USA, June 18-22, 2018}}. \bibinfo{pages}{2255--2264}.
+  Conference on Computer Vision and Pattern Recognition, {CVPR} 2018}}.
+  \bibinfo{pages}{2255--2264}.
 \newblock
 
 
@@ -84,21 +133,36 @@ Retrieved August 26, 2019 from \tempurl}
   \bibinfo{person}{Masaki Nakagawa}.} \bibinfo{year}{2001}\natexlab{}.
 \newblock \showarticletitle{Two On-Line Japanese Character Databases in Unipen
   Format}. In \bibinfo{booktitle}{\emph{6th International Conference on
-  Document Analysis and Recognition {(ICDAR} 2001), 10-13 September 2001,
-  Seattle, WA, {USA}}}. \bibinfo{pages}{566--571}.
+  Document Analysis and Recognition, {ICDAR} 2001}}. \bibinfo{pages}{566--571}.
 \newblock
 
 
-\bibitem[\protect\citeauthoryear{Krajewski, Bock, Kloeker, and
-  Eckstein}{Krajewski et~al\mbox{.}}{2018}]%
-        {highDdataset}
-\bibfield{author}{\bibinfo{person}{Robert Krajewski}, \bibinfo{person}{Julian
-  Bock}, \bibinfo{person}{Laurent Kloeker}, {and} \bibinfo{person}{Lutz
-  Eckstein}.} \bibinfo{year}{2018}\natexlab{}.
-\newblock \showarticletitle{The highD Dataset: A Drone Dataset of Naturalistic
-  Vehicle Trajectories on German Highways for Validation of Highly Automated
-  Driving Systems}. In \bibinfo{booktitle}{\emph{2018 IEEE 21st International
-  Conference on Intelligent Transportation Systems (ITSC)}}.
+\bibitem[\protect\citeauthoryear{Keogh, Wei, Xi, Vlachos, Lee, and
+  Protopapas}{Keogh et~al\mbox{.}}{2009}]%
+        {KeoghWXVLP09}
+\bibfield{author}{\bibinfo{person}{Eamonn~J. Keogh}, \bibinfo{person}{Li Wei},
+  \bibinfo{person}{Xiaopeng Xi}, \bibinfo{person}{Michail Vlachos},
+  \bibinfo{person}{Sang{-}Hee Lee}, {and} \bibinfo{person}{Pavlos Protopapas}.}
+  \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Supporting exact indexing of arbitrarily rotated
+  shapes and periodic time series under Euclidean and warping distance
+  measures}.
+\newblock \bibinfo{journal}{\emph{{VLDB} J.}} \bibinfo{volume}{18},
+  \bibinfo{number}{3} (\bibinfo{year}{2009}), \bibinfo{pages}{611--630}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Leal{-}Taix{\'{e}}, Fenzi, Kuznetsova,
+  Rosenhahn, and Savarese}{Leal{-}Taix{\'{e}} et~al\mbox{.}}{2014}]%
+        {CVPR/videotrackds}
+\bibfield{author}{\bibinfo{person}{Laura Leal{-}Taix{\'{e}}},
+  \bibinfo{person}{Michele Fenzi}, \bibinfo{person}{Alina Kuznetsova},
+  \bibinfo{person}{Bodo Rosenhahn}, {and} \bibinfo{person}{Silvio Savarese}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Learning an Image-Based Motion Context for Multiple
+  People Tracking}. In \bibinfo{booktitle}{\emph{2014 {IEEE} Conference on
+  Computer Vision and Pattern Recognition, {CVPR} 2014}}.
+  \bibinfo{pages}{3542--3549}.
 \newblock
 
 
@@ -110,8 +174,7 @@ Retrieved August 26, 2019 from \tempurl}
   \bibinfo{year}{2011}\natexlab{}.
 \newblock \showarticletitle{{CASIA} Online and Offline Chinese Handwriting
   Databases}. In \bibinfo{booktitle}{\emph{2011 International Conference on
-  Document Analysis and Recognition, {ICDAR} 2011, Beijing, China, September
-  18-21, 2011}}. \bibinfo{pages}{37--41}.
+  Document Analysis and Recognition, {ICDAR} 2011}}. \bibinfo{pages}{37--41}.
 \newblock
 
 
@@ -134,7 +197,49 @@ Retrieved August 26, 2019 from \tempurl}
 \newblock \showarticletitle{The UJIpenchars Database: a Pen-Based Database of
   Isolated Handwritten Characters}. In \bibinfo{booktitle}{\emph{Proceedings of
   the International Conference on Language Resources and Evaluation, {LREC}
-  2008, 26 May - 1 June 2008, Marrakech, Morocco}}.
+  2008}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nair and Hinton}{Nair and Hinton}{2006}]%
+        {HintonN05}
+\bibfield{author}{\bibinfo{person}{Vinod Nair} {and}
+  \bibinfo{person}{Geoffrey~E. Hinton}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Inferring Motor Programs from Images of Handwritten
+  Digits}.
+\newblock In \bibinfo{booktitle}{\emph{Advances in Neural Information
+  Processing Systems 18, {NIPS} 2006}}. \bibinfo{pages}{515--522}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Nutanong, Jacox, and Samet}{Nutanong
+  et~al\mbox{.}}{2011}]%
+        {pvldb/NutanongJS11}
+\bibfield{author}{\bibinfo{person}{Sarana Nutanong}, \bibinfo{person}{Edwin~H.
+  Jacox}, {and} \bibinfo{person}{Hanan Samet}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{An Incremental Hausdorff Distance Calculation
+  Algorithm}.
+\newblock \bibinfo{journal}{\emph{PVLDB}} \bibinfo{volume}{4},
+  \bibinfo{number}{8} (\bibinfo{year}{2011}), \bibinfo{pages}{506--517}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Onofrey, Casetti{-}Dinescu, Lauritzen, Sarkar,
+  Venkataraman, Fan, Sonn, Sprenkle, Staib, and Papademetris}{Onofrey
+  et~al\mbox{.}}{2019}]%
+        {isbi/OnofreyCLSVFSSS19}
+\bibfield{author}{\bibinfo{person}{John~A. Onofrey}, \bibinfo{person}{Dana~I.
+  Casetti{-}Dinescu}, \bibinfo{person}{Andreas~D. Lauritzen},
+  \bibinfo{person}{Saradwata Sarkar}, \bibinfo{person}{Rajesh Venkataraman},
+  \bibinfo{person}{Richard~E. Fan}, \bibinfo{person}{Geoffrey~A. Sonn},
+  \bibinfo{person}{Preston~C. Sprenkle}, \bibinfo{person}{Lawrence~H. Staib},
+  {and} \bibinfo{person}{Xenophon Papademetris}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Generalizable Multi-Site Training and Testing Of
+  Deep Neural Networks Using Image Normalization}. In
+  \bibinfo{booktitle}{\emph{16th {IEEE} International Symposium on Biomedical
+  Imaging, {ISBI} 2019}}. \bibinfo{pages}{348--351}.
 \newblock
 
 
@@ -149,8 +254,34 @@ Retrieved August 26, 2019 from \tempurl}
 \newblock \showarticletitle{Searching and mining trillions of time series
   subsequences under dynamic time warping}. In \bibinfo{booktitle}{\emph{The
   18th {ACM} {SIGKDD} International Conference on Knowledge Discovery and Data
-  Mining, {KDD} '12, Beijing, China, August 12-16, 2012}}.
-  \bibinfo{pages}{262--270}.
+  Mining, {KDD} 2012}}. \bibinfo{pages}{262--270}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Sangkloy, Burnell, Ham, and Hays}{Sangkloy
+  et~al\mbox{.}}{2016}]%
+        {SangkloyBHH16}
+\bibfield{author}{\bibinfo{person}{Patsorn Sangkloy}, \bibinfo{person}{Nathan
+  Burnell}, \bibinfo{person}{Cusuh Ham}, {and} \bibinfo{person}{James Hays}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{The sketchy database: learning to retrieve badly
+  drawn bunnies}.
+\newblock \bibinfo{journal}{\emph{{ACM} Trans. Graph.}} \bibinfo{volume}{35},
+  \bibinfo{number}{4} (\bibinfo{year}{2016}), \bibinfo{pages}{119:1--119:12}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Sha, Lucey, Yue, Carr, Rohlf, and
+  Matthews}{Sha et~al\mbox{.}}{2016}]%
+        {iui/ShaLYCRM16}
+\bibfield{author}{\bibinfo{person}{Long Sha}, \bibinfo{person}{Patrick Lucey},
+  \bibinfo{person}{Yisong Yue}, \bibinfo{person}{Peter Carr},
+  \bibinfo{person}{Charlie Rohlf}, {and} \bibinfo{person}{Iain~A. Matthews}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Chalkboarding: {A} New Spatiotemporal Query
+  Paradigm for Sports Play Retrieval}. In \bibinfo{booktitle}{\emph{Proceedings
+  of the 21st International Conference on Intelligent User Interfaces, {IUI}
+  2016}}. \bibinfo{pages}{336--347}.
 \newblock
 
 
@@ -161,22 +292,34 @@ Retrieved August 26, 2019 from \tempurl}
   {and} \bibinfo{person}{Stuart~J. Russell}.} \bibinfo{year}{2013}\natexlab{}.
 \newblock \showarticletitle{Writing and sketching in the air, recognizing and
   controlling on the fly}. In \bibinfo{booktitle}{\emph{2013 {ACM} {SIGCHI}
-  Conference on Human Factors in Computing Systems, {CHI} '13, Paris, France,
-  April 27 - May 2, 2013, Extended Abstracts}}. \bibinfo{pages}{1179--1184}.
+  Conference on Human Factors in Computing Systems, {CHI} 2013}}.
+  \bibinfo{pages}{1179--1184}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wang and Lu}{Wang and Lu}{2017}]%
+        {WangL17}
+\bibfield{author}{\bibinfo{person}{Qingqing Wang} {and} \bibinfo{person}{Yue
+  Lu}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{A Sequence Labeling Convolutional Network and Its
+  Application to Handwritten String Recognition}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the Twenty-Sixth International Joint
+  Conference on Artificial Intelligence, {IJCAI} 2017}}.
+  \bibinfo{pages}{2950--2956}.
 \newblock
 
 
 \bibitem[\protect\citeauthoryear{Wang, Bao, Culpepper, Xie, Liu, and Qin}{Wang
   et~al\mbox{.}}{2018}]%
-        {torch}
+        {Wang2018}
 \bibfield{author}{\bibinfo{person}{Sheng Wang}, \bibinfo{person}{Zhifeng Bao},
   \bibinfo{person}{J.~Shane Culpepper}, \bibinfo{person}{Zizhe Xie},
   \bibinfo{person}{Qizhi Liu}, {and} \bibinfo{person}{Xiaolin Qin}.}
   \bibinfo{year}{2018}\natexlab{}.
-\newblock \showarticletitle{Torch: {A} Search Engine for Trajectory Data}. In
-  \bibinfo{booktitle}{\emph{The 41st International {ACM} {SIGIR} Conference on
-  Research {\&} Development in Information Retrieval, {SIGIR} 2018, Ann Arbor,
-  MI, USA, July 08-12, 2018}}. \bibinfo{pages}{535--544}.
+\newblock \showarticletitle{{Torch: A search engine for trajectory data}}. In
+  \bibinfo{booktitle}{\emph{41st International ACM SIGIR Conference on Research
+  and Development in Information Retrieval, SIGIR 2018}}.
+  \bibinfo{pages}{535--544}.
 \newblock
 
 
@@ -189,8 +332,7 @@ Retrieved August 26, 2019 from \tempurl}
 \newblock \showarticletitle{Effective and Efficient Sports Play Retrieval with
   Deep Representation Learning}. In \bibinfo{booktitle}{\emph{Proceedings of
   the 25th {ACM} {SIGKDD} International Conference on Knowledge Discovery {\&}
-  Data Mining, {KDD} 2019, Anchorage, AK, USA, August 4-8, 2019.}}
-  \bibinfo{pages}{499--509}.
+  Data Mining, {KDD} 2019}}. \bibinfo{pages}{499--509}.
 \newblock
 
 

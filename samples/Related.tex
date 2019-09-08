@@ -42,9 +42,9 @@
 \acmDOI{10.1145/1122445.1122456}
 
 %% These commands are for a PROCEEDINGS abstract or paper.
-\acmConference[Summer '19]{Summer '19: A Summer Research Internship on Database}{July 23--31, 2019}{Singapore, SG}
+\acmConference[Summer '19]{Summer '19: A Summer Research Internship on Database}{Jun. 11--Sept. 10, 2019}{Singapore, SG}
 \acmBooktitle{Summer '19: A Summer Research Internship on Database,
-  July 23--31, 2019, Singapore, SG}
+  Jun. 11--Sept. 10, 2019, Singapore, SG}
 \acmPrice{15.00}
 \acmISBN{978-1-4503-9999-9/18/06}
 
@@ -55,7 +55,7 @@
 %%
 %% The "title" command has an optional parameter,
 %% allowing the author to define a "short title" to be used in page headers.
-\title{Vision Trajectories}
+\title{Vision Trajectory Database}
 
 %%
 %% The "author" command and its associated commands are used to define
@@ -83,15 +83,15 @@
 \author{Sheng Wang}
 \affiliation{%
 	\institution{New York University}
+	\state{NY}
+	\country{USA}
 }
 \email{swang@nyu.edu}
 
-%%
-%% The abstract is a short summary of the work to be presented in the
-%% article.
+
 
 \begin{abstract}
-Nowadays, trajectories extracted from vision objects including image and videos like handwriting trajectory \cite{VikramLR13, DBLP:conf/icdar/LiuYWW11}, sports player running trajectory \cite{DBLP:conf/kdd/WangLCJ19}, vehicle driving trajectory \cite{highDdataset} and pedestrain moving track \cite{GuptaJFSA18} require an efficient trajectory management database. While the current trajectory search engine like \cite{torch} can not be transfered to this new task simply, because of some properties shared amongst vision trajectories. For example, the dense distribution within a relatively small area compared with traffic trajectories. And in this paper, we will first introduce the application scenes of vision trajectory. Then we'll discuss the difficulty in the process of vision trajectory similarity searching, like trajectory normalization and dynamic time warping (DTW) computation complexity. After that, a brief description of available datasets would be given. 
+This paper is a survey on visual trajectory, which is defined as trajectory extracted from visual objects like video and image. We will introduce the application scenes of visual trajectory and point out the limitation of previous works. And then, we will explain why it's essential to build a trajectory database for these tasks and show some new tasks can be supplied by such a database. Challenges of normalization and similarity measurement would be discussed. Available datasets would also be presented in the end.  
 \end{abstract}
 
 %%
@@ -110,41 +110,51 @@ Nowadays, trajectories extracted from vision objects including image and videos 
 
 \ccsdesc[500]{Information systems~Database design and models}
 
+\keywords{database management, handwriting trajectory, drawing trajectory}
 
-%%
-%% Keywords. The author(s) should pick words that accurately describe
-%% the work being presented. Separate the keywords with commas.
-\keywords{database management, handwriting trajectories}
-
-%% A "teaser" image appears between the author and affiliation
-%% information and the body of the document, and typically spans the
-%% page.
-
-
-%%
-%% This command processes the author and affiliation and title
-%% information and builds the first part of the formatted document.
 \maketitle
 
 \section{Introduction}
-Handwritten trajectories can also be applied to computer-human intereactions \cite{VikramLR13}. The paper proposes a novel way to control computers by moving fingers in the air. They demonstrate this human input approach through an example application of handwriting recognition. A 3D finger moving trajectory is captured by the sensor and then search for the most similar trajectory in the standard character trackings database. Because while capturing, there is no explicit gesture that indicates when a character starts or stops, so that each subtrajectory should be compared with all the standard trackings.  While the dynamic time warping (DTW)  based similarity search algorithm is so time-consuming  that searching in a 160-trajectories dataset may take about 10 seconds. So a more efficient way to manage these trajectory data is in need, especially when we are dealing with database that contains several millions of handwritten trackings. 
+%% In introduction, we state the possible application background and motivation of our paper. And briefly summarize the mothod we proposed.
+Nowadays, many works focus on vehicle trajectory management have been proposed. However, for another series of trajectory, like handwriting trajectory and drawing trajectory, which we call \textit{visual trajectory}, they haven't been fully studied. There are four main differences between visual and vehicle trajectory: 1) Freely distributed, unlike vehicles are constrained to road network, handwriting and drawing trajectory exists everywhere on the 2D ground. So the traditional map matching method \cite{Wang2018} cannot be applied to this new problem; 2) Accurately recorded, vehicles trajectory recording relies on unstable GPS accuracy, but for visual trajectory, it is recorded by human-machine interaction equipment accurately \cite{VikramLR13}, which makes it easier for similarity search; 3) Same simple rates, due to the same pen-based recording devices; 4) Dense and frequently crossing, visual trajectory extracted from image or video is restrained to the fixed image size, and there are a lot of crossing between trajectories, which means we can not treat it as a set matching problem in similarity search but have to consider temporal order information. 
 
+So, we would like to propose a visual trajectory database which supports both whole trajectory and sub-trajectory Top-k similarity search, with a balanced efficiency and effectiveness, e.g. the high similarity search accuracy and retrieval speed. 
 
+The possible application scenes include: 
 
+\noindent
+\textbf{1) Handwriting recognition and user identification}. As a classic problem, handwriting user identification and recognition has been well studied in computer vision area \cite{WangL17}. While in handwriting user identification, lack of training data has always been a tough issue for Convolutional Neural Network (CNN) training. But if a handwriting trajectory search database was built, it would solve this problem easily because it can work well even in one-shot condition, which means we only have gotten one sample for each handwritten character of a certain user. For character recognition, the idea that visually similar handwriting characters can be distinguished by writing trajectories has been commonly accepted, as Geoffrey E. Hinton mentioned in \cite{HintonN05}. And trajectory reconstruction methods based on combination of CNN and RNN or Generative Adversarial Network (GAN) have been mature enough \cite{ICPRtraj, GuptaJFSA18}. So when it comes to a messy classification problem that two handwritten characters are visually similar, our database can provide essential help in trajectory similarity search for recognition, on condition that trajectories have been reconstructed. 
 
+\noindent
+\textbf{2) Drawing recommendation}. Sketch-based image retrieval has been a hot topic for a long time \cite{SangkloyBHH16}. It is more convenient for users to describe features of their target in drawings than natural language.  But the current vector embedding search method doesn't support sub-trajectory search, because it's hard to map whole trajectory and sub-trajectory into the same space while ensure high similarity between them. If this operation is supported, the searching expense can be largely reduced by a simple click of the target category. 
 
+\noindent
+\textbf{3) Sports play retrieval}. Sports play retrieval by trajectory searching have been studied in \cite{DBLP:conf/kdd/WangLCJ19, iui/ShaLYCRM16}. But the current solution is usually embedding trajectories into vectors in a space, and measure the distance through cosine similarity, which means the previous methods do not support sub-trajectory search, either.
 
-\section{Normalization}
+\noindent
+\textbf{4) Human-computer interaction}. At the moment, a lot of human computer interaction methods are based on finger moving trajectory similarity search \cite{VikramLR13}. But the searching is too time consuming, an enumerate DTW-based trajectory similarity search in a dataset with 160 trajectories would take roughly 10 seconds, which is so time-consuming. A visual trajectory database support efficient retrieval would surely be useful in this task.  
 
+\section{Related Work}
+%% we summarize the related work, but don't need to compare with our method.
+\noindent
+\textbf{Trajectory Reconstruction from Videos and Images.} 
+Reconstructing trajectory from image and video has been a fully studied problem in computer vision area, like handwriting character trajectory, drawing trajectory and pedestrian motion. Usually, a combination of Convolution Neural Network (CNN) and Recursive Neural Network (RNN) is preferred for image trajectory reconstruction \cite{ICPRtraj}. And there are also works focus on feature designing and computing \cite{CVPR/videotrackds}. When it comes to video trajectory, Generative Adversarial Network (GAN) is applied in these tasks \cite{GuptaJFSA18}. 
 
+\noindent
+\textbf{Trajectory Similarity Measures.} In measuring trajectory similarity, Dynamic Time Warping (DTW) is a well accepted method. Different from Euclidean Distance, DTW consider matching points within a certain time window, that's also how the name ``warping'' comes. But the expense of computation is very large, and several optimizations are proposed in \cite{RakthanmanonDTW, vldb/LB_keogh, KeoghWXVLP09}, including lower bound pruning, early abandoning Z-Normalization, reordering early abandoning, reversing the Query/Document role in $LB_{keogh}$ and cascading lower bounds. Besides, Longest Common Subsequence (LCSS) and Edit Distance on Real Sequence (EDRS) are also widely accepted trajectory similarity measures. Even though, the approximate computing complexity of current popular measures is still $O(mn)$, where $m$ and $n$ represent the length of query and candidate sequences separately. 
 
-\section{Dynamic Time Warping}
-In measuring trajectory similairty, Dynamic Time Warping (DTW) is a well accepted method. Different from Euclidean Distance, DTW consider matching points within a certain time window, that's also how the name ``warping'' comes. But the expense of computation is very large, and several optimizations are proposed in \cite{RakthanmanonDTW, vldb/LB_keogh}, including lower bound pruning, early abandoning Z-Normalization, reordering early abandoning, reversing the Query/Document role in $LB_{keogh}$ and casacading lower bounds. Even though, the approximate computing complexity of DTW is still $O(mn)$, where $m$ and $n$ represent the length of query and candidate aequences separately. 
+\section{Challenge}
+%% what is the key difficulty in this
+\subsection{Preprocessing of Trajectories}
+We separate the preprocessing of trajectory into two problems: resizing and normalization. For example, the length of trajectory extracted from a $1000 \times 1000$ image and a $25 \times 25$ image would be definitely different. And the coordinates of points that consist the trajectory would also be changing if the handwritten character is moved from lower right corner to upper left corner of the image. Image resizing has been a fully studied problem in computer vision area \cite{CVPR/imageresize}. And resizing character into our desired size is an easy job. And for image normalization, many methods have been proposed for medical image normalization \cite{isbi/OnofreyCLSVFSSS19}, which is also applicable to our problem. 
+\subsection{Support Sub-trajectory  Search}
+As we are supporting sub-trajectory search, then the vector embedding method is not applicable. The distance between whole trajectory and sub-trajectory in the mapped space is very large as the vector only posses general feature, while neglecting local feature at the same time. So we have to implement the sub-trajectory search based on the time sequence similarity measurements like DTW or curve similarity measurements like Hausdorff distance and Fréchet distance \cite{siam/AgarwalAKS14,pvldb/NutanongJS11}.
+\subsection{Similarity Measures}
+The similarity measurement determines the efficiency of our database directly. Although measures like Dynamic TIme Warping (DTW), Longest Common Subsequence (LCSS), and Edit Distance on Real sequence (EDR) are robust to local time shifting and noise, but they all require a lot of computations with $O(n^2)$ complexity. In our task, the size of trajectory dataset usually ranges between no less than 1 million and 50 million, which means we have to figure out how to reduce the computations and in the mean while, ensure accuracy. 
+ 
 
 \section{Datasets}
-There are datasets of vision trajectories of considerable size. For example, the CASIA database of Chinese character handwriting trajectories \cite{DBLP:conf/icdar/LiuYWW11} consists of over 160 million trajectories of more than 3000 classes. And trajectory databases of other languages are also available, like English \cite{UJIPen}, Japanese \cite{icdar/Japanese}, Vietnamese \cite{Vietnamese}, etc. In \textbf{Table 1}, we show the statistics of CASIA database.
-
-
+There are datasets of vision trajectories of considerable size. For handwriting characters, the CASIA database of Chinese character handwriting trajectories \cite{DBLP:conf/icdar/LiuYWW11} consists of over 1.6 million trajectories of more than 3000 classes. And trajectory databases of other languages are also available, like English \cite{UJIPen}, Japanese \cite{icdar/Japanese} and Vietnamese \cite{Vietnamese}, etc. We show the statistics of CASIA database in \textbf{Table 1}. 
 \begin{table}
 	\caption{Statistics of CASIA Database}
 	\label{tab:CASIA}
@@ -165,6 +175,8 @@ There are datasets of vision trajectories of considerable size. For example, the
 	
 	\end{tabular}
 \end{table}
+
+Besides, a drawing trajectory dataset \cite{Quickdraw} is provided by Google, which contains 50 million drawings across 345 categories. Another drawing trajectory dataset is provided by Georgia Institute of Technology \cite{SangkloyBHH16} with over 7000 trajectories. In the Georgia Tech dataset, each sketch drawing is labeled with an original image, from which it was generated.
 
 %%
 %% The next two lines define the bibliography style to be used, and

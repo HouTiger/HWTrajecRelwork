@@ -5,94 +5,89 @@ The style file: ACM-Reference-Format.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: sample-base.bib
-A bad cross reference---entry "VikramLR13"
-refers to entry "DBLP:conf/chi/2013a", which doesn't exist
+Warning--entry type for "Quickdraw" isn't style-file defined
+--line 218 of file sample-base.bib
 A bad cross reference---entry "DBLP:conf/kdd/WangLCJ19"
 refers to entry "DBLP:conf/kdd/2019", which doesn't exist
-A bad cross reference---entry "GuptaJFSA18"
-refers to entry "DBLP:conf/cvpr/2018", which doesn't exist
-A bad cross reference---entry "torch"
-refers to entry "DBLP:conf/sigir/2018", which doesn't exist
-A bad cross reference---entry "RakthanmanonDTW"
-refers to entry "DBLP:conf/kdd/2012", which doesn't exist
-A bad cross reference---entry "DBLP:conf/icdar/LiuYWW11"
-refers to entry "DBLP:conf/icdar/2011", which doesn't exist
-A bad cross reference---entry "UJIPen"
-refers to entry "DBLP:conf/lrec/2008", which doesn't exist
 A bad cross reference---entry "icdar/Japanese"
 refers to entry "DBLP:conf/icdar/2001", which doesn't exist
-Warning--I didn't find a database entry for "DBLP:conf/chi/2013a"
-Warning--I didn't find a database entry for "DBLP:conf/cvpr/2018"
-Warning--I didn't find a database entry for "DBLP:conf/kdd/2012"
 Warning--I didn't find a database entry for "DBLP:conf/kdd/2019"
-Warning--I didn't find a database entry for "DBLP:conf/icdar/2011"
-Warning--I didn't find a database entry for "DBLP:conf/lrec/2008"
 Warning--I didn't find a database entry for "DBLP:conf/icdar/2001"
-Warning--I didn't find a database entry for "DBLP:conf/sigir/2018"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty publisher in ICPRtraj
+Warning--empty address in ICPRtraj
+Warning--empty publisher in CVPR/imageresize
+Warning--empty address in CVPR/imageresize
 Warning--empty publisher in GuptaJFSA18
 Warning--empty address in GuptaJFSA18
 Warning--empty publisher in icdar/Japanese
 Warning--empty address in icdar/Japanese
-Warning--empty publisher in highDdataset
-Warning--empty address in highDdataset
-Warning--page numbers missing in both pages and numpages fields in highDdataset
+Warning--empty publisher in CVPR/videotrackds
+Warning--empty address in CVPR/videotrackds
 Warning--empty publisher in DBLP:conf/icdar/LiuYWW11
 Warning--empty address in DBLP:conf/icdar/LiuYWW11
 Warning--empty publisher in UJIPen
 Warning--empty address in UJIPen
 Warning--page numbers missing in both pages and numpages fields in UJIPen
+Warning--empty publisher in HintonN05
+Warning--empty address in HintonN05
+Warning--empty publisher in isbi/OnofreyCLSVFSSS19
+Warning--empty address in isbi/OnofreyCLSVFSSS19
 Warning--empty publisher in RakthanmanonDTW
 Warning--empty address in RakthanmanonDTW
+Warning--empty publisher in iui/ShaLYCRM16
+Warning--empty address in iui/ShaLYCRM16
 Warning--empty publisher in VikramLR13
 Warning--empty address in VikramLR13
-Warning--empty publisher in torch
-Warning--empty address in torch
+Warning--empty publisher in WangL17
+Warning--empty address in WangL17
+Warning--empty publisher in Wang2018
+Warning--empty address in Wang2018
 Warning--empty publisher in DBLP:conf/kdd/WangLCJ19
 Warning--empty address in DBLP:conf/kdd/WangLCJ19
-You've used 11 entries,
+You've used 22 entries,
             5719 wiz_defined-function locations,
-            1377 strings with 18312 characters,
-and the built_in function-call counts, 14837 in all, are:
-= -- 1513
-> -- 735
+            1439 strings with 20324 characters,
+and the built_in function-call counts, 30104 in all, are:
+= -- 3393
+> -- 1376
 < -- 0
-+ -- 251
-- -- 244
-* -- 1171
-:= -- 1617
-add.period$ -- 53
-call.type$ -- 11
-change.case$ -- 102
-chr.to.int$ -- 11
-cite$ -- 31
-duplicate$ -- 1282
-empty$ -- 885
-format.name$ -- 284
-if$ -- 3380
++ -- 474
+- -- 464
+* -- 2294
+:= -- 3196
+add.period$ -- 110
+call.type$ -- 22
+change.case$ -- 194
+chr.to.int$ -- 22
+cite$ -- 53
+duplicate$ -- 2574
+empty$ -- 1778
+format.name$ -- 544
+if$ -- 7029
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 49
-newline$ -- 123
-num.names$ -- 88
-pop$ -- 560
+missing$ -- 91
+newline$ -- 210
+num.names$ -- 176
+pop$ -- 1034
 preamble$ -- 1
-purify$ -- 201
+purify$ -- 392
 quote$ -- 0
-skip$ -- 470
+skip$ -- 956
 stack$ -- 0
-substring$ -- 1012
-swap$ -- 130
+substring$ -- 2233
+swap$ -- 291
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 316
-warning$ -- 20
-while$ -- 76
+type$ -- 590
+warning$ -- 31
+while$ -- 169
 width$ -- 0
-write$ -- 218
-(There were 8 error messages)
+write$ -- 404
+(There were 2 error messages)
